@@ -1,0 +1,69 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.whl
+.Python
+env/
+venv/
+.venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+
+# Documentation
+README*.md
+LICENSE
+*.txt
+!requirements.txt
+
+# Logs
+*.log
+
+# Tests
+tests/
+test_*
+*_test.py
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+Jenkinsfile
+
+# Proxy configs (уже в отдельных volumes)
+proxy.yaml
+haproxy/
+nginx/
+
+# Environment (будет передан через переменные окружения)
+.env*
+!.env.example
+
+# Database
+*.db
+*.sqlite
